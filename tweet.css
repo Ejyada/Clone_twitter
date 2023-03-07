@@ -1,0 +1,97 @@
+
+.container-1 {
+    display: flex;
+}
+.container-1 div {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.left {
+    min-width: 150px;
+}
+#icons {
+    list-style: none;
+}
+#icons {
+    
+    flex-direction: row;
+    font-size: 45px;
+    padding: 2px;
+}
+#tweet {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1DA1F2;
+}
+#prof {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.center {
+    flex: 1;
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+}
+#home {
+    border-bottom: 1px #ccc solid;
+}
+#home ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+#newsfeed div{
+    height: 200px;
+    width: 500px;
+    border: 1px #ccc solid;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#newsfeed #main-prof{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.right {
+    min-width: 200px;
+    flex: 0.5;
+}
+.right #search {
+    border-radius: 30px;
+    width: 270px;
+    height: 35px;
+    background-color: #ccc;
+}
+.right #trend {
+    margin-top: 7px;
+    border: 1px #ccc solid;
+    height: 500px;
+    border-radius: 5%;
+    background-color: #ccc;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container-1 .right{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
